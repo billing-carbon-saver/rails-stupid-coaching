@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   # root "articles#index"
   #
   get 'ask', to: 'questions#ask'
+  get 'answer', to: 'questions#answer'(.:format)
   # verb "url", to: "controller#action"
   #
 end
